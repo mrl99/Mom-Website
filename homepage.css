@@ -1,0 +1,70 @@
+body {
+	background: #e6e6ff;
+}
+
+#main {
+	width: 1000px;
+	height: 600px;
+	background: 
+}
+
+h1 {
+	font-size: 1.0cm;
+	color: 00134d;
+}
+
+#blueBar {
+	height:40px;
+	background-color:00004d;
+	border-style:solid;
+	border-color:00004d;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:120px;
+}
+
+#company {
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:100px;
+	height:20px;
+	background:linear-gradient(#efeff5, #00004d);
+}
+
+#infoForm {
+	position:fixed;
+	top:700px;
+	left:300px;
+}
+
+#importantPart {
+	position:fixed;
+	background-color: #efeff5;
+	left:200px;
+	right:200px;
+	top:0px;
+	bottom:0px;
+	z-index: 0;
+}
+
+#leftGrad {
+	position:fixed;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	width:400px;
+	background:radial-gradient(#e6e6ff, #efeff5);
+	z-index:-1;
+}
+
+#rightGrad {
+	position:fixed;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:400px;
+	background:radial-gradient(#e6e6ff, #efeff5);
+	z-index:-1;
+}
